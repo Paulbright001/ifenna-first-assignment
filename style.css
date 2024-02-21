@@ -1,0 +1,81 @@
+.container{
+    display: flex; justify-content: space-between;
+}
+.secondcontainer{
+    display: flex; padding: 35px;
+}
+.img1{
+    width: 250px;
+
+}
+.img2{
+    width: 500px;
+}
+.navigators{
+    display: none;
+}
+.hamburger{
+    width: 50px; display: flex;
+}
+
+  .secondcontainer{ display: flex; flex-direction: column;
+
+  } 
+  .them{
+    background-color: rgb(67, 67, 206);
+    color: white; border: none; border-radius: 10px; height: 10%;
+  }
+  .him{
+    background-color: rgb(67, 67, 206); color: white; border: none; border-radius: 20px; width: 100px; height: 50%; display: none;
+  }
+  .me{
+    display: none;
+  }
+  
+
+@media screen and (min-width: 800px) {
+    
+    body{
+        background-color: white;
+    }
+    
+    .container{
+        display: flex; justify-content: space-between; padding: 16px 8px;
+    }
+    .secondcontainer{
+        display: flex; flex-direction: row;
+
+    }
+    .me{display: flex; text-decoration: none; margin-top: 30px; font-size: 20px; 
+}
+p{
+    font-size: 20px; 
+    width: 49%;
+
+}
+h1{
+    font-size: 70px;
+    width: 76%;
+}
+.him{
+    margin-top: 30px; display: block;
+}
+.img1{
+    margin-top: 30px;
+}
+.hamburger{
+    display: none;
+}
+a{
+    text-decoration: none;transition: all
+}
+.him:hover{
+    background-color: black;
+
+}
+
+
+}
+
+
+}
